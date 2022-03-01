@@ -1,5 +1,5 @@
 def syrracuse():
-    
+    holaaaa
     u=int(input())
     while u!=1:# pour i allant de 1 à n
         if u%2==0:   # u%2: reste de la division euclidienne de u par 2
