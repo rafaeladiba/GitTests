@@ -7,12 +7,14 @@ def egyptian():
 
     while y >= 1: 
         if y%2 != 0: 
-            print('x =', x, 'and', 'y =', y)
-            print('  ADD', x)
+            
+            
             result = result + x
         else:
-         print('x =', x, 'and', 'y =', y)
+         
         
      
-        x = x * 2
+        x = x + x
         y = y // 2 # integer division
+    return result
+print(egyptian())
