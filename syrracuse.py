@@ -1,4 +1,4 @@
-def syracuse():
+def syrracuse():
     
     u=int(input())
     while u!=1:# pour i allant de 1 à n
@@ -8,4 +8,4 @@ def syracuse():
             u = 3*u+1
         print(u)
         
-    
+syrracuse()
