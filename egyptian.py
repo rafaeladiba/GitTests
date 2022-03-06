@@ -1,20 +1,20 @@
 def egyptian():
-    x = int(input('Enter first number (x): '))
-    y = int(input('Enter second number (y) : '))
+    x = int(input('Enter first number: '))
+    y = int(input('Enter second number: '))
 
-    # on initialise le resultat à 0
+    # on initialise le resultat a 0
     result = 0
 
-    while y >= 1: 
+    while y > 0: 
         if y%2 != 0: 
             
-            
+
             result = result + x
+            y = y-1
         else:
          
-        
-     
-        x = x + x
-        y = y // 2 # integer division
+
+         x = x + x
+         y = y / 2 
     return result
-print(egyptian())
+print("result",egyptian())
