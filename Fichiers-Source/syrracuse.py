@@ -1,4 +1,4 @@
-#v1
+#v1   
 def syrracuse():
     
     u=int(input("Mettez une valeur: "))
